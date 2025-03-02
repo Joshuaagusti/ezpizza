@@ -1,0 +1,196 @@
+
+body{
+
+    background-image: url(https://ezpizza.store/assets/img/Register%20image.png);
+     
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed; 
+
+}
+
+
+.register-frame{ 
+  
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    gap: 96px;
+    padding: 72px;
+
+    height: 102vh;
+}
+
+.register-form-double-section .register-textbox{
+    width: 338px;
+}
+.register-form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    width: 720px;
+    background-color: rgba(18, 25, 31, 0.5);
+    outline: 40px solid rgba(18, 25, 31, 0.5);
+    border-radius: 15px;
+    height: 720px;
+}
+
+.register-frame p{
+    font-family: 'League Spartan', sans-serif;            
+    font-size: 24px; 
+    color: #F7F7F7;
+    display: inline;
+    height: 16px;
+}
+
+.register-frame h3{
+    font-family: 'League Spartan', sans-serif;            
+    font-size: 32px; 
+    color: #74D7C8;
+    display: inline;
+    height: 21px;
+}
+
+.register-textbox{
+    padding-left: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    width: 700px;
+    display: flex;
+    gap: 10px;
+}
+
+.register-textbox input{
+    font-family: 'League Spartan', sans-serif;
+    background-color: transparent; 
+    border: none;                
+    font-size: 24px; 
+    height: 48px;
+    line-height: 4px; 
+}
+
+.register-textbox input::placeholder {
+    color: #828282;             
+    opacity: 1;       
+}
+
+.register-textbox input:focus {
+    outline: none;              
+}
+
+.register-form-section{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.register-form-double-section{
+    display: flex;
+    gap: 24px;
+}
+
+.register-button{
+    text-align: center;
+    background-color: #74D7C8;
+    border-radius: 8px;
+    font-family: 'League Spartan', sans-serif;            
+    font-size: 24px; 
+    color: #F7F7F7;
+    display: inline;
+    height: 40px;
+    border: none;          
+    outline: none;  
+}
+
+.register-form a{
+    text-decoration: underline;
+    color: #74D7C8;
+}
+
+.register-password img {
+    cursor: pointer;
+}
+
+@media (max-width: 750px) {
+    .register-frame{ 
+        gap: 96px;
+        padding: 66.5px;
+        height: 150vh;
+    }
+    
+    .register-form{
+
+        gap: 16px;
+        padding: 10px;
+        width: 320px;
+        border-radius: 15px;
+        height: 824px;
+    }
+    
+    .register-frame p{        
+        font-size: 16px; 
+        height: 0px;
+    }
+    
+    .register-frame h3{        
+        font-size: 24px; 
+        height: 16px;
+    }
+    
+    .register-textbox{
+        padding-left: 10px;
+        border-radius: 50px;
+        width: 300px;
+        gap: 10px;
+    }
+
+    .register-form-double-section .register-textbox{
+        width: 300px;
+    }
+
+    .register-textbox input{              
+        font-size: 16px; 
+        line-height: 4px; 
+        height: 32px;
+    }
+    
+    .register-form-section{
+        gap: 24px;
+    }
+    
+    .register-form-double-section{
+        flex-direction: column;
+    }
+    
+    .register-button{        
+        font-size: 16px; 
+    }
+    
+    .register-form a{
+        text-decoration: underline;
+        color: #74D7C8;
+    }
+    
+    .register-password img {
+        cursor: pointer;
+    }
+
+    .register-form img {
+        width: 24px;
+        height: 24px;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .register-form{
+        outline: 15px solid rgba(18, 25, 31, 0.5);
+    }
+
+}
+

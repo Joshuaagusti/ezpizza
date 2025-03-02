@@ -1,0 +1,86 @@
+/* Custom CSS for Cart Page */
+:root {
+    --primary-color: #12191F;
+    --accent-color: #74D7C8;
+    --background-color: #F7F7F7;
+    --border-color: #E1E1E1;
+}
+
+body {
+    font-family: 'League Spartan', sans-serif;
+    background-color: var(--background-color);
+}
+
+/* Cart Section */
+
+
+
+
+
+/* New Arrivals Section */
+.new-arrivals {
+    margin-top: 2rem;
+}
+
+.new-arrivals h4 {
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.new-arrival-item {
+    background-color: var(--background-color);
+    border-radius: 30px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.new-arrival-item img {
+    border-radius: 20px;
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+}
+
+.new-arrival-item .item-category {
+    font-size: 0.9rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.new-arrival-item .item-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.new-arrival-item .favorite-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.new-arrival-item .item-price {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991px) {
+    .cart-section h2 {
+        font-size: 2rem;
+    }
+
+    .new-arrivals .scroll-container {
+        overflow-x: auto;
+        display: flex;
+        gap: 1rem;
+    }
+
+    .new-arrival-item {
+        min-width: 250px;
+        flex: 0 0 auto;
+    }
+}
